@@ -1,0 +1,8 @@
+In some phones when we try to type text in input box , the keypad will overlap with input box.
+
+So for that purpose we use KeyboardAvoidingView.
+
+In pdf one step is missing which we need to add :
+ </KeyboardAvoidingView>
+
+This should be added at the end ,before adding styles.
